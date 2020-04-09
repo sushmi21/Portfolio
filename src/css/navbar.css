@@ -1,0 +1,20 @@
+.navbar {
+  padding: 2em 0;
+  background-color: #faebed !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #45b29a;
+}
+
+.navbar-brand {
+  margin-left: 5rem;
+}
+
+.navbar-nav {
+  margin-right: 2rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}

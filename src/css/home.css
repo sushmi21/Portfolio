@@ -1,0 +1,92 @@
+#top {
+  padding-top: 0;
+  overflow: hidden;
+  background: #faebed;
+}
+
+.masthead-wrap {
+  -moz-transition: fadeIn 0.5s ease-in-out;
+  -o-transition: fadeIn 0.5s ease-in-out;
+  transition: fadeIn 0.5s ease-in-out;
+  background: #faebed;
+}
+
+#title.work-head {
+  padding-bottom: 4em;
+}
+
+#title {
+  padding: 0.5em 0 0;
+  position: relative;
+}
+
+#title .container {
+  position: relative;
+}
+
+#head-slider {
+  padding: 4em 0;
+}
+
+.work {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: cursive;
+  color: #45b29a;
+}
+
+.container {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#title .cloud {
+  position: absolute;
+  background: url(../images/cloud.svg) top left no-repeat;
+  width: 150px;
+  height: 45px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  z-index: 980;
+}
+
+#title .right-cloud {
+  right: -5em;
+  top: 0;
+}
+
+#title .left-cloud {
+  left: -6em;
+  bottom: 2em;
+}
+
+@media (min-width: 1140px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+  #title .left-cloud {
+    left: 2em;
+    bottom: 5em;
+  }
+  #title .right-cloud {
+    right: 2em;
+    top: 6em;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
